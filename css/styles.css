@@ -145,15 +145,11 @@ ul {
 }
 
 .svg-icon-mail {
-  width: 16px;
-  height: 12px;
   margin-right: 10px;
   fill: currentColor;
 }
 
 .contact .svg-icon {
-  width: 10px;
-  height: 16px;
   margin-right: 10px;
   fill: currentColor;
 }
@@ -223,13 +219,10 @@ ul {
   background-color: rgba(245, 244, 250, 1);
   height: 120px;
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-.svg-icon {
-  width: 70px;
-  height: 70px;
+.features .svg-icon {
+  padding-top: 25px;
 }
 
 .features .title {
@@ -298,6 +291,11 @@ ul {
   margin-right: 0;
 }
 
+.team .card {
+  background-color: var(--primary-white-color);
+  border-radius: 0px 0px 4px 4px;
+}
+
 .team .text {
   color: var(--primary-text-color);
   line-height: 1.2;
@@ -331,15 +329,12 @@ ul {
 }
 
 .team .svg-icon {
-  width: 44px;
-  height: 44px;
+  /* width: 44px; */
   fill: currentColor;
 }
 
 .item-icon .twitter {
   padding-top: 10px;
-  width: 32px;
-  height: 32px;
 }
 
 /* client section */
@@ -366,8 +361,8 @@ ul {
 }
 
 .clients .svg-icon {
-  width: 170px;
-  height: 92px;
+  /* width: 170px;
+  height: 92px; */
   fill: currentColor;
 }
 /* footer section */
@@ -437,8 +432,6 @@ ul {
 }
 
 .social .svg-icon {
-  width: 44px;
-  height: 44px;
   fill: currentColor;
 }
 .social .item {
